@@ -1,9 +1,13 @@
+import navlogo from './images/navlogo.png';
+import ExploreMore from './components/ExploreMore.js';
+import { Button } from "@material-tailwind/react";
 import { useState, useEffect } from "react";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Web3Storage } from "web3.storage";
 import { useAccount, useContract, useSigner } from "wagmi";
 
 import { CONTRACT_ADDRESS, CONTRACT_ABI } from "./contract";
+import Footer from './components/Footer';
 
 const client = new Web3Storage({
 	token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDI4ZTgzYzVlQjdmRmQxNzIxZTA0ODk1N0NlZjBBODlDRWZDNkZEZmYiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODE0ODE3ODc5ODUsIm5hbWUiOiJWYXVsdDMifQ.ylTz-lCa5WdJVVUc0d6UCXQOU1DsWwfAzs8LNBwdFMI ",
@@ -95,7 +99,11 @@ function App() {
 					size: file[2]?.toString(),
 					type: file[3],
 					name: file[4],
-					uploadTime: file[5]?.toString()
+					uploadTime: new Date(file[5] * 1000).toLocaleDateString("en-US", {
+						day: "numeric",
+						month: "numeric",
+						year: "numeric"
+					})
 				};
 				filesArr.push(file_obj);
 			}
@@ -113,14 +121,35 @@ function App() {
 	}, [contract])
 
 	return (
-		<div className="bg-black text-white">
-			<div className="flex items-center justify-between flex-row px-4 py-2">
+		<div className="bg-black text-white"
+			style={{ backgroundImage: 'linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%)' }}>
+			<div className="flex items-center justify-between flex-row px-20 py-8">
 				{/* Logo */}
-				<h1 className="text-2xl font-bold">FileStorage</h1>
+				<h1 className="text-3x1 font-extrabold" style={{ fontSize: '40px' }}><span><img src={navlogo} style={{ width: '48px', display: "inline-block", marginRight: "10px" }} /></span>
+					Vault 3
+					{/* <a href="https://github.com/Harshit-Raj-14/Vault-3" target="_blank" rel="noopener noreferrer">
+							<Button
+								size="lg"
+								color="white"
+								style={{ marginLeft: '0px', fontSize: '16px', marginLeft: "50px", display: "inline-block" }}
+								className="flex items-center gap-1"
+							>
+								Github
+							</Button></a> */}
+					<ExploreMore />
+				</h1>
+
 				<ConnectButton />
+
 			</div>
-			<div className="flex flex-col items-center justify-center min-h-screen">
-				<h1 className="text-4xl font-extrabold">Upload files</h1>
+
+
+			<div className="relative justify-center text-center min-h-screen">
+				<h1 className="vaultheading">Vault <span style={{ color: 'white' }}>everyone trusts</span></h1>
+				<h3 className="text-2xl font-bold mt-2" style={{ fontStyle: "verdana", fontSize: "25px" }}>The safe, simple, and smart way to store your data</h3>
+				<h1 className="text-4xl font-extrabold mt-8" style={{ fontStyle: "verdana", fontSize: "35px" }}>Upload Files</h1>
+
+				{/* ////////////// */}
 
 				{address && (
 					<div className="flex flex-col items-center justify-center mb-8 mt-6">
@@ -140,6 +169,7 @@ function App() {
 								</label>
 								<button
 									type="submit"
+									style={{ marginLeft: "50px" }}
 									className="py-2 px-4 rounded font-bold bg-white text-blue-700 border border-blue-500 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-900 hover:border-transparent hover:bg-blue-500 hover:text-white transform transition hover:scale-110"
 								>
 									Upload!
@@ -161,39 +191,39 @@ function App() {
 												<tr className="border-b dark:border-gray-600">
 													<th
 														scope="col"
-														className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+														className="px-6 py-3 text-middle text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>
 														id
 													</th>
 													<th
 														scope="col"
-														className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+														className="px-6 py-3 text-middle text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>
 														name
 													</th>
 													<th
 														scope="col"
-														className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+														className="px-6 py-3 text-middle text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>
 														type
 													</th>
 													<th
 														scope="col"
-														className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+														className="px-6 py-3 text-middle text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>
 														size
 													</th>
 													<th
 														scope="col"
-														className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+														className="px-6 py-3 text-middle text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>
 														date
 													</th>
 													<th
 														scope="col"
-														className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+														className="px-6 py-3 text-middle text-xs font-medium text-gray-500 uppercase tracking-wider"
 													>
-														hash/view/get
+														hash
 													</th>
 												</tr>
 											</thead>
@@ -206,7 +236,7 @@ function App() {
 														<td className="px-4 py-4 whitespace-nowrap">
 															<div className="flex items-center">
 																<div className="text-sm font-medium text-gray-900 ">
-																	{file.id}
+																	{file.id}.
 																</div>
 															</div>
 														</td>
@@ -220,7 +250,7 @@ function App() {
 														</td>
 														<td className="px-4 py-4 whitespace-nowrap">
 															<span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800 dark:bg-pink-100 dark:text-pink-800">
-																{file.size}
+																{(file.size / (1024 * 1024)).toFixed(2)} MB
 															</span>
 														</td>
 														<td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -235,7 +265,7 @@ function App() {
 																rel="noopener noreferrer"
 																target="_blank"
 															>
-																{file.hash.substring(0, 15)}...
+																{file.hash}
 															</a>
 														</td>
 													</tr>
@@ -249,6 +279,7 @@ function App() {
 					</div>
 				)}
 			</div>
+			<Footer />
 		</div>
 	);
 }
