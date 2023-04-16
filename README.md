@@ -21,7 +21,8 @@ Since the data is stored on the blockchain, only you with the private key can ac
 ### Project Demo
 **Video Walkthrough link -** [Click here](https://youtu.be/9FMx4PC54fg)
 
-**Screenshots - **
+**Screenshots**
+
 ![Screenshot 2023-04-16 at 19-17-22 React App](https://user-images.githubusercontent.com/98808802/232316000-ff200813-66ca-42e2-8339-5afe22dd3c44.png)
 ![Screenshot 2023-04-16 at 18-43-07 React App](https://user-images.githubusercontent.com/98808802/232316006-e33282e2-be0e-4754-ba59-9db8f5e6a918.png)
 
