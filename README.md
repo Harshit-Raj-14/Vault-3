@@ -1,18 +1,22 @@
-# Vault3 - Unlock the power of decentralized storage with Vault3
-A web 3 project....
-    "Your data, your control - store it all with Vault3."
-    "Unlock the power of decentralized storage with Vault3."
-    "Vault3: the safe, simple, and smart way to store your web3 data."
-    "Revolutionize your digital storage experience with Vault3."
-    "Keep your data private and protected with Vault3's advanced encryption technology."
-    "Say goodbye to centralized storage and hello to Vault3's decentralized network."
-    "Vault3: the future of web3 storage, available today."
-    "Store your digital assets with confidence, backed by Vault3's cutting-edge security features."
-    "Access your data anytime, anywhere, with Vault3's seamless web3 integration."
-    "Vault3: the storage app that puts you in charge."
-    
+# Vault 3 - Unlock the power of decentralized storage
+#### Vault everyone trusts - The safe, simple, and smart way to store your data
 
-### Team : Medusaverse
+May I present to you Vault 3, a decentralized storage platform designed to securely store your data in a smart and intelligent way.
+
+Why should you use Vault 3? Have you ever wondered where to store your crucial data such as ID cards, passports, Aadhaar cards, bank details, or passwords? Do you use a notepad, local storage in your browser, Google Drive, or any online storage system? If your answer is yes, then your important data is at risk of being attacked, stolen, or deleted since these are all centralized storage systems.
+
+That's where vault 3 comes in to unlock the power of decentralized storage for its users. It uses a secure smart contract deployed on the Polygon blockchain and IPFS technology to store your data on the blockchain. All you need to do is connect your wallet, regardless of which blockchain system you use, and you are ready to upload your data effortlessly, which will be directly stored on the blockchain.
+
+Here's the video walkthrough:
+
+Since the data is stored on the blockchain, only you with the private key can access these files. If it were centralized, anyone with access could do whatever they wanted. But when it is decentralized, we know about the perks of this new word. Vault3 is the storage app that puts you in charge of your own data where you can store your digital assets(jpeg, png, pdf, doc, videos, NFT's...and anyand everything) with confidence.
+
+### Say goodbye, to centralized storage and hello to Vault3's decentralized storage power.
+
+    
+<hr>
+
+## Team : Medusaverse
 
 ### Project Demo
 Website link - 
