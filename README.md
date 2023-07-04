@@ -8,7 +8,7 @@ Have you ever wondered where to store your crucial data such as ID cards, passpo
 
 That's where vault 3 comes in to unlock the power of decentralized storage for its users. It uses a secure smart contract deployed on the **filecoin blockchain and IPFS technology** to store your data on the blockchain. All you need to do is connect your wallet, regardless of which blockchain system you use, and you are ready to upload your data effortlessly, which will be directly stored on the blockchain.
 
-Here's the video walkthrough: [Click here](https://youtu.be/9FMx4PC54fg)
+Here's the video walkthrough: [Click here](https://youtu.be/rDWIhUj-PfU)
 
 Since the data is stored on the blockchain, only you with the private key can access these files. If it were centralized, anyone with access could do whatever they wanted. But when it is decentralized, we know about the perks of this new word. Vault3 is the storage app that puts you in charge of your own data where you can store your digital assets(jpeg, png, pdf, doc, videos, NFT's...and anyand everything) with confidence.
 
@@ -21,7 +21,7 @@ Since the data is stored on the blockchain, only you with the private key can ac
 ### Built by Harshit Raj
 
 ## Project Demo
-**Video Walkthrough link -** [Click here](https://youtu.be/9FMx4PC54fg)
+**Video Walkthrough link-** [Click here](https://youtu.be/rDWIhUj-PfU)
 
 **Screenshots**
 
