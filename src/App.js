@@ -149,7 +149,7 @@ function App() {
 				<h3 className="text-2xl font-bold mt-2" style={{ fontStyle: "verdana", fontSize: "25px" }}>The safe, simple, and smart way to store your data</h3>
 				<h1 className="text-4xl font-extrabold mt-8" style={{ fontStyle: "verdana", fontSize: "35px" }}>Upload Files</h1>
 
-				{/* ////////////// */}
+				{/* /////////////// */}
 
 				{address && (
 					<div className="flex flex-col items-center justify-center mb-8 mt-6">
