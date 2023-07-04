@@ -2,7 +2,6 @@
 pragma solidity ^0.8.7;
 
 contract FileStorage {
-    // Event
     event FileUploaded(
         uint256 fileId,
         string fileHash,
@@ -13,7 +12,6 @@ contract FileStorage {
         address uploader
     );
 
-    // File Struct
     struct File {
         uint256 fileId;
         string fileHash;
@@ -27,7 +25,6 @@ contract FileStorage {
     uint256 public fileCount = 0;
     mapping(address => File[]) public files;
 
-    // Upload File function
     function uploadFile(
         string memory _fileHash,
         uint256 _fileSize,
