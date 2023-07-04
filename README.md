@@ -1,7 +1,13 @@
 # Vault 3 - Unlock the power of decentralized storage
 #### Vault everyone trusts - The safe, simple, and smart way to store your data
+<br>
+
+## This is a submisison for Filecoin Orbit India Hackathon - HackaFIL
+### Built by Harshit Raj
+<br>
 
 May I present to you Vault 3, a decentralized storage platform designed to securely store your data in a smart and intelligent way.
+
 
 #### Why should you use Vault 3? 
 Have you ever wondered where to store your crucial data such as ID cards, passports, Aadhaar cards, bank details, or passwords? Do you use a notepad, local storage in your browser, Google Drive, or any online storage system? If your answer is yes, then your important data is at risk of being attacked, stolen, or deleted since these are all centralized storage systems.
@@ -17,8 +23,6 @@ Since the data is stored on the blockchain, only you with the private key can ac
     
 <hr>
 
-## This is a submisison for Filecoin Orbit India Hackathon - HackaFIL
-### Built by Harshit Raj
 
 ## Project Demo
 **Video Walkthrough link-** [Click here](https://youtu.be/rDWIhUj-PfU)
