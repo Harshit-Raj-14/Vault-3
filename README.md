@@ -3,9 +3,10 @@
 
 May I present to you Vault 3, a decentralized storage platform designed to securely store your data in a smart and intelligent way.
 
-Why should you use Vault 3? Have you ever wondered where to store your crucial data such as ID cards, passports, Aadhaar cards, bank details, or passwords? Do you use a notepad, local storage in your browser, Google Drive, or any online storage system? If your answer is yes, then your important data is at risk of being attacked, stolen, or deleted since these are all centralized storage systems.
+#### Why should you use Vault 3? 
+Have you ever wondered where to store your crucial data such as ID cards, passports, Aadhaar cards, bank details, or passwords? Do you use a notepad, local storage in your browser, Google Drive, or any online storage system? If your answer is yes, then your important data is at risk of being attacked, stolen, or deleted since these are all centralized storage systems.
 
-That's where vault 3 comes in to unlock the power of decentralized storage for its users. It uses a secure smart contract deployed on the Polygon blockchain and IPFS technology to store your data on the blockchain. All you need to do is connect your wallet, regardless of which blockchain system you use, and you are ready to upload your data effortlessly, which will be directly stored on the blockchain.
+That's where vault 3 comes in to unlock the power of decentralized storage for its users. It uses a secure smart contract deployed on the **filecoin blockchain and IPFS technology** to store your data on the blockchain. All you need to do is connect your wallet, regardless of which blockchain system you use, and you are ready to upload your data effortlessly, which will be directly stored on the blockchain.
 
 Here's the video walkthrough: [Click here](https://youtu.be/9FMx4PC54fg)
 
@@ -16,9 +17,10 @@ Since the data is stored on the blockchain, only you with the private key can ac
     
 <hr>
 
-## Team : Medusaverse
+## This is a submisison for Filecoin Orbit India Hackathon - HackaFIL
+### Built by Harshit Raj
 
-### Project Demo
+## Project Demo
 **Video Walkthrough link -** [Click here](https://youtu.be/9FMx4PC54fg)
 
 **Screenshots**
