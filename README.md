@@ -2,7 +2,6 @@
 #### Vault everyone trusts - The safe, simple, and smart way to store your data
 <br>
 
-## This is a submisison for Filecoin Orbit India Hackathon - HackaFIL
 ### Built by Harshit Raj
 <br>
 
